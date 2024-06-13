@@ -2,20 +2,28 @@
 
 import { createGlobalStyle } from 'styled-components'
 
+import { theme } from './theme'
+
 export const GlobalStyle = createGlobalStyle`
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    font-family: "DM Sans"
+    font-family: "DM Sans";
   }
 
   html, body, #root {
     height: 100%;
     width: 100%;
+    background-color: ${theme.colors.black700};
+    color: ${theme.colors.white};
   }
-
+  
+  a, a:hover {
+    color: inherit;
+  }
+  
   html {
     font-size: 62.5%;
   }
@@ -23,7 +31,6 @@ export const GlobalStyle = createGlobalStyle`
   body {
     font-size: 1rem;
     background-color: #F8F8F8;
-    color: #000000;
     width: 100vw;
     height: 100%;
     text-rendering: optimizelegibility;
