@@ -35,6 +35,9 @@ export const TitleContainer = styled.div`
     border-radius: 7px;
     padding: 0.8px;
     background: linear-gradient(50deg, gray, transparent);
+    mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
     -webkit-mask:
       linear-gradient(#fff 0 0) content-box,
       linear-gradient(#fff 0 0);
