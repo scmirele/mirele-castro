@@ -9,16 +9,17 @@ export const theme = {
   },
   fontSize: {
     text_3xs: '1.2rem',
-    text_2xs: '1.6rem',
+    text_2xs: '1.8rem',
     text_xs: '2rem',
     text_sm: '2.2rem',
     text_md: '2.5rem',
     text_lg: '2.8rem',
     text_xl: '3.5rem',
     text_2xl: '4rem',
-    text_3xl: '4.8rem',
+    text_3xl: '4.6rem',
     text_4xl: '5.6rem',
-    text_5xl: '6.4rem'
+    text_5xl: '6.4rem',
+    text_6xl: '7.6rem'
   },
 
   media: {

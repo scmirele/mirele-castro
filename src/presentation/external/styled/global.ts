@@ -9,16 +9,17 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth;
     font-family: "DM Sans";
   }
 
   html, body, #root {
-    height: 100%;
-    width: 100%;
+    min-height: 100vh !important;
+    height: auto;
     background-color: ${theme.colors.black700};
     color: ${theme.colors.white};
+    overflow-x: hidden;
   }
+
   
   a, a:hover {
     color: inherit;
@@ -30,12 +31,8 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     font-size: 1rem;
-    background-color: #F8F8F8;
-    width: 100vw;
-    height: 100%;
     text-rendering: optimizelegibility;
     -webkit-font-smoothing: antialiased;
-    overflow-x: hidden;
   }
 
   @media (max-width: 720px) {
@@ -49,5 +46,4 @@ export const GlobalStyle = createGlobalStyle`
       font-size: 43,75%;
     }
   }
-
 `
