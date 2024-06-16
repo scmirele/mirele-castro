@@ -1,3 +1,5 @@
+import { Footer } from '../Footer/Footer'
+import { Header } from '../Header/Header'
 import { Wrapper } from '../Wrapper/Wrapper'
 
 export function Root({ children }: { children: React.ReactNode }) {
@@ -6,5 +8,7 @@ export function Root({ children }: { children: React.ReactNode }) {
 
 export const Page = {
   Root,
-  Wrapper
+  Wrapper,
+  Header,
+  Footer
 }
