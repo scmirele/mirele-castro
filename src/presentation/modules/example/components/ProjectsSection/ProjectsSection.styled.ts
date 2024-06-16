@@ -7,6 +7,7 @@ import { theme } from '../../../../external/styled'
 export const Container = styled.section`
   display: flex;
   flex-direction: column;
+  margin-top: 11.2rem;
   gap: 5.2rem;
 `
 
