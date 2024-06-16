@@ -1,4 +1,5 @@
-import { HeroSection } from './presentation/modules/example/components/ExampleModule copy/HeroSection'
+import { HeroSection } from './presentation/modules/example/components/HeroSection/HeroSection'
+import { ProjectsSection } from './presentation/modules/example/components/ProjectsSection/ProjectsSection'
 import { Page } from './presentation/shared/components/layout'
 import { Header } from './presentation/shared/components/layout/Header/Header'
 
@@ -12,6 +13,7 @@ function App() {
         <Page.Root>
           <Header />
           <HeroSection />
+          <ProjectsSection />
         </Page.Root>
       </S.Container>
       <GlobalStyle />
