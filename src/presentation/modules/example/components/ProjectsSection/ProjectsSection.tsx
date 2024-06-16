@@ -8,7 +8,7 @@ import * as S from './ProjectsSection.styled'
 
 export function ProjectsSection() {
   return (
-    <S.Container>
+    <S.Container id="projects">
       <S.SectionTitle>Projetos</S.SectionTitle>
       <S.ProjectContainer reverse={false}>
         <S.ProjectImageContainer>

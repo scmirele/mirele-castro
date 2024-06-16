@@ -8,7 +8,7 @@ import * as S from './Footer.styled'
 
 export function Footer() {
   return (
-    <S.Container>
+    <S.Container id="contacts">
       <S.Nav>
         <S.Link href="#" target="blank">
           <CImage

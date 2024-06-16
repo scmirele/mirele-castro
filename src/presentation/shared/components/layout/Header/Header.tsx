@@ -9,9 +9,9 @@ export function Header() {
     <S.Container>
       <CImage src={Logo} alt="Mirele Logo" width={60} height={71} />
       <S.Nav>
-        <S.Link>Sobre mim</S.Link>
-        <S.Link>Projetos</S.Link>
-        <S.Link>Contato</S.Link>
+        <S.Link href="#about-me">Sobre mim</S.Link>
+        <S.Link href="#projects">Projetos</S.Link>
+        <S.Link href="#contacts">Contato</S.Link>
       </S.Nav>
     </S.Container>
   )

@@ -18,6 +18,7 @@ export const GlobalStyle = createGlobalStyle`
     background-color: ${theme.colors.black700};
     color: ${theme.colors.white};
     overflow-x: hidden;
+    scroll-behavior: smooth;
   }
 
   

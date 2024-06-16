@@ -6,7 +6,7 @@ import * as S from './HeroSection.styled'
 
 export function HeroSection() {
   return (
-    <S.Container>
+    <S.Container id="about-me">
       <S.AboutContainer>
         <S.TitleContainer>
           <S.PseudoElementLeft></S.PseudoElementLeft>
