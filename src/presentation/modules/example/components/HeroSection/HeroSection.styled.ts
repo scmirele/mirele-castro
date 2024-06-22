@@ -7,11 +7,13 @@ import { theme } from '../../../../external/styled'
 export const Container = styled.section`
   display: flex;
   flex-direction: column;
-  height: auto;
   width: 100%;
+  gap: 100px;
   padding-top: 8.2rem;
-  gap: 11rem;
   color: ${theme.colors.white};
+
+  @media (max-width: ${theme.media.md}) {
+  }
 `
 
 export const AboutContainer = styled.div`
@@ -19,11 +21,16 @@ export const AboutContainer = styled.div`
   display: flex;
   justify-content: space-between;
   width: 100%;
+
+  @media (max-width: ${theme.media.md}) {
+    flex-direction: column;
+  }
 `
 export const TitleContainer = styled.div`
   position: relative;
   display: flex;
   flex-direction: column-reverse;
+  padding-top: 2rem;
   padding-left: 5.7rem;
   padding-bottom: 3.7rem;
   padding-right: 3rem;
@@ -54,20 +61,21 @@ const DefaultPseudoElement = styled.span`
 
 export const PseudoElementLeft = styled(DefaultPseudoElement)`
   width: 7px;
-  height: 60px;
-  left: 0;
+  height: 20%;
+  left: -1px;
 `
 
 export const PseudoElementTop = styled(DefaultPseudoElement)`
-  width: 540px;
+  width: 100%;
   height: 20px;
+  top: -1px;
   left: 0;
 `
 
 export const PseudoElementRight = styled(DefaultPseudoElement)`
   width: 6px;
-  height: 260px;
-  right: 0;
+  height: 100%;
+  right: -1px;
 `
 
 export const Title = styled.h1`
@@ -83,7 +91,13 @@ export const TextAboutMe = styled.p`
   position: relative;
   top: 10rem;
   width: 47.6rem;
+  padding-left: 4rem;
+
   font-size: ${theme.fontSize.text_2xs};
+  @media (max-width: ${theme.media.md}) {
+    width: 100%;
+    padding-left: 0;
+  }
 `
 
 export const MyJourneyContainer = styled.div``

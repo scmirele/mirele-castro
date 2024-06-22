@@ -20,6 +20,10 @@ export const ProjectContainer = styled.div<{ reverse: boolean }>`
   display: flex;
   flex-direction: ${props => (props.reverse ? 'row-reverse' : 'row')};
   gap: 4.8rem;
+
+  @media (max-width: ${theme.media.md}) {
+    flex-direction: column;
+  }
 `
 
 export const ProjectImageContainer = styled.div`
