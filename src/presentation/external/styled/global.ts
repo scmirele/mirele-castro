@@ -10,6 +10,7 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     font-family: "DM Sans";
+    text-decoration: none;
   }
 
   html, body, #root {
@@ -17,7 +18,8 @@ export const GlobalStyle = createGlobalStyle`
     height: auto;
     background-color: ${theme.colors.black700};
     color: ${theme.colors.white};
-    overflow-x: hidden;
+    overflow-x: scroll;
+    scrollbar-width: none;
     scroll-behavior: smooth;
   }
 

@@ -27,6 +27,9 @@ export function Footer() {
           <CImage src={EmailIcon} height={45} width={45} alt="email icon" />
         </S.Link>
       </S.Nav>
+      <S.CopywriterText>
+        © Mirele Castro 2024. Todos os direitos reservados.
+      </S.CopywriterText>
     </S.Container>
   )
 }
