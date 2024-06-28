@@ -81,6 +81,10 @@ export const PseudoElementRight = styled(DefaultPseudoElement)`
 export const Title = styled.h1`
   font-size: ${theme.fontSize.text_6xl};
   font-weight: 800;
+
+  @media (max-width: ${theme.media.sm}) {
+    font-size: ${theme.fontSize.text_4xl};
+  }
 `
 
 export const Greetings = styled.p`
