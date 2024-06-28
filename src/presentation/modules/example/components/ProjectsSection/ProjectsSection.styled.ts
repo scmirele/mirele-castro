@@ -69,7 +69,7 @@ export const ProjectInfoTitle = styled.div`
   &::after {
     content: '';
     position: absolute;
-    bottom: 0;
+    bottom: -10px;
     left: 0;
     width: 40%;
     border-bottom: 1px solid ${theme.colors.white};
