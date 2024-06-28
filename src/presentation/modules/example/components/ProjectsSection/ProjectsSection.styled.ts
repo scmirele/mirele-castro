@@ -96,4 +96,8 @@ export const ShowMore = styled.div`
 
   border: 1px solid ${theme.colors.white};
   border-radius: 8px;
+
+  &:hover {
+    cursor: pointer;
+  }
 `
