@@ -1,5 +1,4 @@
-import { HeroSection } from './presentation/modules/example/components/HeroSection/HeroSection'
-import { ProjectsSection } from './presentation/modules/example/components/ProjectsSection/ProjectsSection'
+import * as Home from './presentation/modules/home/components'
 import { Page } from './presentation/shared/components/layout'
 
 import * as S from './App.styled'
@@ -11,8 +10,8 @@ function App() {
       <S.Container>
         <Page.Root>
           <Page.Header />
-          <HeroSection />
-          <ProjectsSection />
+          <Home.HeroSection />
+          <Home.ProjectsSection />
           <Page.Footer />
         </Page.Root>
       </S.Container>
