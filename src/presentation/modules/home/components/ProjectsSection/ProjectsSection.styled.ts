@@ -81,7 +81,7 @@ export const ProjectInfoDescription = styled.div`
   font-weight: 400;
 `
 
-export const ShowMore = styled.div`
+export const ShowMore = styled.a`
   display: flex;
   height: 5.1rem;
   width: 15.3rem;

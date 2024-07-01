@@ -37,7 +37,10 @@ export function ProjectsSection() {
               detalhadas sobre o escritório de advocacia, suas áreas de atuação,
               e os serviços oferecidos.
             </S.ProjectInfoDescription>
-            <S.ShowMore>
+            <S.ShowMore
+              href=" https://dribbble.com/shots/24351107-Landing-Page-Escrit-rio-Termos"
+              target="_blank"
+            >
               SAIBA MAIS <CImage src={IconRightArrow} alt="" />
             </S.ShowMore>
           </S.ProjectTextContainer>
@@ -73,7 +76,10 @@ export function ProjectsSection() {
               infantil, visando se tornar uma carteira digital completa para a
               saúde das crianças.
             </S.ProjectInfoDescription>
-            <S.ShowMore>
+            <S.ShowMore
+              href="https://dribbble.com/shots/24351135-Carteira-de-Vacina-o-Digital"
+              target="_blank"
+            >
               SAIBA MAIS <CImage src={IconRightArrow} alt="" />
             </S.ShowMore>
           </S.ProjectTextContainer>

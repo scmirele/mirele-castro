@@ -10,7 +10,10 @@ export function Footer() {
   return (
     <S.Container id="contacts">
       <S.Nav>
-        <S.Link href="#" target="blank">
+        <S.Link
+          href="https://www.linkedin.com/in/mirelescastro/"
+          target="blank"
+        >
           <CImage
             src={LinkedinIcon}
             height={45}
@@ -19,11 +22,14 @@ export function Footer() {
           />
         </S.Link>
 
-        <S.Link href="#" target="blank">
+        <S.Link href="https://dribbble.com/mirwle" target="blank">
           <CImage src={BallIcon} height={45} width={45} alt="ball icon" />
         </S.Link>
 
-        <S.Link href="#" target="blank">
+        <S.Link
+          href="mailto:scmirele8@gmail.com?subject=Assunto%20do%20Email"
+          target="blank"
+        >
           <CImage src={EmailIcon} height={45} width={45} alt="email icon" />
         </S.Link>
       </S.Nav>
